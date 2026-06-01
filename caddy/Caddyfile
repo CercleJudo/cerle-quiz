@@ -1,0 +1,7 @@
+# Remplace YOUR_DOMAIN_HERE par ton domaine réel (ex: quiz.example.com)
+# Remplace your-email@example.com par ton adresse e-mail pour les certificats Let's Encrypt
+
+YOUR_DOMAIN_HERE {
+    reverse_proxy app:8501
+    tls your-email@example.com
+}
