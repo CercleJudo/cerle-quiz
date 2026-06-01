@@ -195,6 +195,7 @@ if st.session_state.theme == "dark":
     #MainMenu {visibility: hidden;}
     header {visibility: hidden;}
     footer {visibility: hidden;}
+    .viewerBadge_container__1QSob {display: none !important;}
     body, .main, .block-container, .stApp {
         background-color: #0d1117 !important;
         color: #e5e7eb !important;
@@ -216,6 +217,7 @@ else:
     #MainMenu {visibility: hidden;}
     header {visibility: hidden;}
     footer {visibility: hidden;}
+    .viewerBadge_container__1QSob {display: none !important;}
     body, .main, .block-container, .stApp {
         background-color: #f8fafc !important;
         color: #111827 !important;
