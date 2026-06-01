@@ -1,7 +1,5 @@
 import random
 import streamlit as st
-st.primaryColor = "#FF4B4B" # Optionnel
-st.showButton = False
 
 # ==========================================
 # BASE DE DONNÉES DES 140 QUESTIONS DU QUIZ
@@ -175,6 +173,8 @@ BELT_ORDER = [
 
 # --- INITIALISATION DE L'APPLICATION STREAMLIT ---
 st.set_page_config(page_title="Quiz Judo Ceintures", page_icon="🥋", layout="centered")
+st.primaryColor = "#FF4B4B" # Optionnel
+st.showButton = False
 
 st.title("🥋 Quiz Interactif de Progression des Ceintures")
 st.write("Évaluez vos connaissances théoriques du judo. Chaque niveau inclut ses questions ainsi que celles des ceintures précédentes !")
