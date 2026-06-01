@@ -176,7 +176,64 @@ st.set_page_config(page_title="Quiz Judo Ceintures", page_icon="🥋", layout="c
 st.primaryColor = "#FF4B4B" # Optionnel
 st.showButton = False
 
-st.title("🥋 Quiz Interactif de Progression des Ceintures")
+if "theme" not in st.session_state:
+    st.session_state.theme = "dark"
+
+def toggle_theme():
+    st.session_state.theme = "light" if st.session_state.theme == "dark" else "dark"
+
+theme_label = "☀️ Mode clair" if st.session_state.theme == "dark" else "🌙 Mode sombre"
+col1, col2 = st.columns([9, 1])
+with col1:
+    st.title("🥋 Quiz Interactif de Progression des Ceintures")
+with col2:
+    st.button(theme_label, key="theme_button", on_click=toggle_theme)
+
+if st.session_state.theme == "dark":
+    page_style = """
+    <style>
+    #MainMenu {visibility: hidden;}
+    header {visibility: hidden;}
+    footer {visibility: hidden;}
+    body, .main, .block-container, .stApp {
+        background-color: #0d1117 !important;
+        color: #e5e7eb !important;
+    }
+    section[data-testid="stSidebar"] {
+        background-color: #111827 !important;
+        color: #e5e7eb !important;
+    }
+    div.stButton>button, button[kind="primary"] {
+        background-color: #1f2937 !important;
+        color: #f9fafb !important;
+        border-color: #374151 !important;
+    }
+    </style>
+    """
+else:
+    page_style = """
+    <style>
+    #MainMenu {visibility: hidden;}
+    header {visibility: hidden;}
+    footer {visibility: hidden;}
+    body, .main, .block-container, .stApp {
+        background-color: #f8fafc !important;
+        color: #111827 !important;
+    }
+    section[data-testid="stSidebar"] {
+        background-color: #ffffff !important;
+        color: #111827 !important;
+    }
+    div.stButton>button, button[kind="primary"] {
+        background-color: #e2e8f0 !important;
+        color: #111827 !important;
+        border-color: #cbd5e1 !important;
+    }
+    </style>
+    """
+
+st.markdown(page_style, unsafe_allow_html=True)
+
 st.write("Évaluez vos connaissances théoriques du judo. Chaque niveau inclut ses questions ainsi que celles des ceintures précédentes !")
 
 if "quiz_started" not in st.session_state:
