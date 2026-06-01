@@ -1,5 +1,7 @@
 import random
 import streamlit as st
+st.primaryColor = "#FF4B4B" # Optionnel
+st.showButton = False
 
 # ==========================================
 # BASE DE DONNÉES DES 140 QUESTIONS DU QUIZ
