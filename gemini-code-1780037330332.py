@@ -173,8 +173,13 @@ BELT_ORDER = [
 
 # --- INITIALISATION DE L'APPLICATION STREAMLIT ---
 st.set_page_config(page_title="Quiz Judo Ceintures", page_icon="🥋", layout="centered")
-st.primaryColor = "#FF4B4B" # Optionnel
-st.showButton = False
+
+hide_viewer_badge = """
+<style>
+.viewerBadge_container__1QSob { display: none !important; }
+</style>
+"""
+st.markdown(hide_viewer_badge, unsafe_allow_html=True)
 
 if "theme" not in st.session_state:
     st.session_state.theme = "dark"
