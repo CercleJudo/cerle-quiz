@@ -68,7 +68,7 @@ QUIZ_DATA = {
         {"question": "Comment s'appelle l'école originelle fondée par Jigoro Kano à Tokyo ?", "options": ["Le Kodokan", "Le Budokan", "Le Tokai", "Le Shojin"], "answer": "Le Kodokan"},
         {"question": "Que signifie l'expression 'Shin-Gi-Tai' en Judo ?", "options": ["Esprit, Technique, Corps", "Force, Vitesse, Souplesse", "Salut, Respect, Courage", "Attaque, Défense, Contre"], "answer": "Esprit, Technique, Corps"},
         {"question": "Quel mot signifie 'La main gauche' ?", "options": ["Hidarite", "Migite", "Hidari-ashi", "Migi-ashi"], "answer": "Hidarite"},
-        {"question": "Quelle est la chute vers l'avant roulée ?", "options": ["Mae-mawari-ukemi (Zenpo-kaiten)", "Mae-ukemi", "Yoko-ukemi", "Ushiro-ukemi"], "answer": "Mae-mawari-ukemi (Zenpo-kaiten)"},
+        {"question": "Quelle est la chute vers l'avant roulée ?", "options": ["Mae-mawari-ukemi", "Mae-ukemi", "Yoko-ukemi", "Ushiro-ukemi"], "answer": "Mae-mawari-ukemi"},
         {"question": "Comment appelle-t-on la manche du judogi ?", "options": ["Sode", "Eri", "Obi", "Zubon"], "answer": "Sode"}
     ],
     "Ceinture Orange": [
