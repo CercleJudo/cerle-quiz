@@ -93,6 +93,28 @@ QUIZ_DATA = {
         {"question": "À quel rang de couleur correspond l'expression 'Ceinture Orange' ?", "options": ["4ème Kyu", "5ème Kyu", "3ème Kyu", "6ème Kyu"], "answer": "4ème Kyu"},
         {"question": "Que signifie 'Kuzure' devant le nom d'une immobilisation (ex: Kuzure-kami-shiho-gatame) ?", "options": ["Variante / Forme modifiée", "Forme fondamentale", "Forme inversée", "Technique interdite"], "answer": "Variante / Forme modifiée"}
     ],
+     "Ceinture Orange-Verte": [
+        {"question": "Que signifie 'Hikite' ?", "options": ["La main qui tire", "Le pied avancé", "le nez", "La main droite"], "answer": "La main qui tire"},
+        {"question": "Que signifie 'Tsurite' ?", "options": ["La main qui soulève", "Le travail debout", "Du Thé à la souris", "La droite de l'arbitre"], "answer": "La main qui soulève"},
+        {"question": "La ceinture rouge et blanche correspond ?", "options": ["à la ceinture noire 6ème dan", "à être encore jeune", "à la ceinture Noire 4ème dan", "à être arbitre fédéral"], "answer": "à la ceinture noire 6ème dan"},
+        {"question": "La ceinture rouge correspond ?", "options": ["à la ceinture noire 9ème dan", "à un combattant chez les lourds", "à la ceinture Noire 6ème dan", "à avoir des cheveux blancs"], "answer": "à la ceinture noire 9ème dan"},
+        {"question": "Jigoro Kano a une ceinture ?", "options": ["Blanche plus large", "qui tient son pantalon", "de corail", "violette"], "answer": "Blanche plus large"},
+        {"question": "La ceinture rouge en compétition ?", "options": ["Est à droite de l'arbitre", "Est le vainqueur du combat", "est disqualifié", "Est tête de série"], "answer": "Est à droite de l'arbitre"},
+        {"question": "Comment dit-on j'abandonne ?", "options": ["Maeta", "Jan-ne-mar", "Tai-sabaki", "Shime-waza"], "answer": "Maeta"},
+        {"question": "Qui est le judoka Français le plus titré ?", "options": ["Teddy Riner", "Clarisse Agbégnénou", "David Douillet", "Lucie Décosse"], "answer": "Teddy Riner"},
+        {"question": "Que signifie 'Yoshi' ?", "options": ["Reprenez", "Ne bougez pas", "Allez boire un coup", "Saluez"], "answer": "Reprenez"},
+        {"question": "Que signifie 'Sonomama' ?", "options": ["Ne bougez pas", "La musique de maman", "Continuez", "Commencez"], "answer": "Ne bougez pas"},
+        {"question": "Quel terme signifie la fin du combat en compétition ?", "options": ["Soremade", "Waza-ari", "Yuko", "Hikite"], "answer": "Soremade"},
+        {"question": "Qu'est ce qu'un 'Mondo' ?", "options": ["Question / réponse", "Une démonstration technique", "Un championnat du monde", "Un droit d'accès"], "answer": "Question / réponse"},
+        {"question": "Que signifie 'Joseki' ?", "options": ["Le jury", "La compétitition", "L'attaque simultanée", "le partenaire"], "answer": "Le jury"},
+        {"question": "Quelle est la signification de 'Shihan' ?", "options": ["Grand Maître", "Inventeur", "Etranglement", "au sol"], "answer": "Grand Maître"},
+        {"question": "Que signifie 'Yoko' ?", "options": ["Latéral, coté", "Supérieur, au dessus", "Yaourt liquide", "Avantage léger"], "answer": "Latéral, coté"},
+        {"question": "Comment s'appelle le travail des clés de brat ?", "options": ["Kansetsu-waza", "Shime-waza", "Osae-waza", "Zavata"], "answer": "Kansetsu-waza"},
+        {"question": "Que signifie l'expression 'Shu-Ha-Ri' en Judo ?", "options": ["La règle - Comprendre la règle - Transcender la règle", "Force, Vitesse, Souplesse", "Salut, Respect, Courage", "Esprit, Technique, Corps"], "answer": "La règle - Comprendre la règle - Transcender la règle"},
+        {"question": "Quel mot signifie 'répétitions de mouvement avec chute' ?", "options": ["Nage-komi", "Uchi-komi", "Randori", "Safe-shute"], "answer": "Nage-komi"},
+        {"question": "Maître Kawaishi (Mikinosuke Kawaishi) est ?", "options": ["L'inventeur des ceintures de couleur", "Le 1er Champion du monde", "Le Fils de Jigoro Kano", "En vacances"], "answer": "L'inventeur des ceintures de couleur"},
+        {"question": "Que signifie 'ko' ?", "options": ["Petit", "Cuillère", "Adversaire", "Intérieur"], "answer": "Petit"}
+    ],
     "Ceinture Verte": [
         {"question": "Comment appelle-t-on les techniques de strangulation / d'étranglement ?", "options": ["Shime-waza", "Kansetsu-waza", "Osaekomi-waza", "Atemi-waza"], "answer": "Shime-waza"},
         {"question": "Comment appelle-t-on les techniques de luxation / clés de bras ?", "options": ["Kansetsu-waza", "Shime-waza", "Nage-waza", "Ne-waza"], "answer": "Kansetsu-waza"},
@@ -166,6 +188,7 @@ BELT_ORDER = [
     "Ceinture Jaune", 
     "Ceinture Jaune-Orange", 
     "Ceinture Orange", 
+    "Ceinture Orange-Verte", 
     "Ceinture Verte", 
     "Ceinture Bleue", 
     "Ceinture Marron"
