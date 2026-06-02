@@ -113,9 +113,9 @@ QUIZ_DATA = {
         {"question": "Que signifie l'expression 'Shu-Ha-Ri' en Judo ?", "options": ["La règle - Comprendre la règle - Transcender la règle", "Force, Vitesse, Souplesse", "Salut, Respect, Courage", "Esprit, Technique, Corps"], "answer": "La règle - Comprendre la règle - Transcender la règle"},
         {"question": "Quel mot signifie 'répétitions de mouvement avec chute' ?", "options": ["Nage-komi", "Uchi-komi", "Randori", "Safe-shute"], "answer": "Nage-komi"},
         {"question": "Maître Kawaishi (Mikinosuke Kawaishi) est ?", "options": ["L'inventeur des ceintures de couleur", "Le 1er Champion du monde", "Le Fils de Jigoro Kano", "En vacances"], "answer": "L'inventeur des ceintures de couleur"},
-        {"question": "Que signifie 'ko' ?", "options": ["Petit", "Cuillère", "Adversaire", "Intérieur"], "answer": "Petit"}
-        {"question": "Qu'est ce qu'un 'Yaku soku geiko' ?", "options": ["Un randori ouvert ou chacun laisse des opportunités à l'autre", "La porte du dojo", "Une technique de concentration", "Un combat souple où Tori attaque et Uke défend"], "answer": "Un randori ouvert ou chacun laisse des opportunités à l'autre"}
-        {"question": "Qu'est ce qu'un 'Kakari Geiko' ?", "options": ["Un combat souple où Tori attaque et Uke défend", "La porte du dojo", "Une technique de concentration avant le salut", "Un randori ouvert ou chacun laisse des opportunités à l'autre"], "answer": "Un combat souple où Tori attaque et Uke défend"}
+        {"question": "Que signifie 'ko' ?", "options": ["Petit", "Cuillère", "Adversaire", "Intérieur"], "answer": "Petit"},
+        {"question": "Qu'est ce qu'un 'Yaku soku geiko' ?", "options": ["Un randori ouvert ou chacun laisse des opportunités à l'autre", "La porte du dojo", "Une technique de concentration", "Un combat souple où Tori attaque et Uke défend"], "answer": "Un randori ouvert ou chacun laisse des opportunités à l'autre"},
+        {"question": "Qu'est ce qu'un 'Kakari Geiko' ?", "options": ["Un combat souple où Tori attaque et Uke défend", "La porte du dojo", "Une technique de concentration avant le salut", "Un randori ouvert ou chacun laisse des opportunités à l'autre"], "answer": "Un combat souple où Tori attaque et Uke défend"},
     ],
     "Ceinture Verte": [
         {"question": "Comment appelle-t-on les techniques de strangulation / d'étranglement ?", "options": ["Shime-waza", "Kansetsu-waza", "Osaekomi-waza", "Atemi-waza"], "answer": "Shime-waza"},
