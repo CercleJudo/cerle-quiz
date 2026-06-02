@@ -103,7 +103,7 @@ QUIZ_DATA = {
         {"question": "Comment dit-on j'abandonne ?", "options": ["Maeta", "Jan-ne-mar", "Tai-sabaki", "Shime-waza"], "answer": "Maeta"},
         {"question": "Qui est le judoka Français le plus titré ?", "options": ["Teddy Riner", "Clarisse Agbégnénou", "David Douillet", "Lucie Décosse"], "answer": "Teddy Riner"},
         {"question": "Que signifie 'O' ?", "options": ["Grand", "Talon", "Maître", "Cercle"], "answer": "Grand"},
-        {"question": "Que signifie 'Soto' ?", "options": ["Extérieur", "Intérieur", "Devant", "Derrière"], "answer": "Extérieur"é"},
+        {"question": "Que signifie 'Soto' ?", "options": ["Extérieur", "Intérieur", "Devant", "Derrière"], "answer": "Extérieur"},
         {"question": "Quel terme signifie la fin du combat en compétition ?", "options": ["Soremade", "Waza-ari", "Yuko", "Hikite"], "answer": "Soremade"},
         {"question": "Qu'est ce qu'un 'Mondo' ?", "options": ["Un moment de questions / réponses", "Une démonstration technique", "Un championnat du monde", "Un droit d'accès"], "answer": "Un moment de questions / réponses"},
         {"question": "Que signifie 'Joseki' ?", "options": ["Le jury", "La compétitition", "L'attaque simultanée", "le partenaire"], "answer": "Le jury"},
