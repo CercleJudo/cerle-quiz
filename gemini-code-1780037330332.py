@@ -99,7 +99,7 @@ QUIZ_DATA = {
         {"question": "La ceinture rouge et blanche correspond ?", "options": ["à la ceinture noire 6ème dan", "à être encore jeune", "à la ceinture Noire 4ème dan", "à être arbitre fédéral"], "answer": "à la ceinture noire 6ème dan"},
         {"question": "La ceinture rouge correspond ?", "options": ["à la ceinture noire 9ème dan", "à un combattant chez les lourds", "à la ceinture Noire 6ème dan", "à avoir des cheveux blancs"], "answer": "à la ceinture noire 9ème dan"},
         {"question": "Jigoro Kano a une ceinture ?", "options": ["Blanche plus large", "qui tient son pantalon", "de corail", "violette"], "answer": "Blanche plus large"},
-        {"question": "La ceinture rouge en compétition ?", "options": ["Est à droite de l'arbitre", "Est le vainqueur du combat", "est disqualifié", "Est tête de série"], "answer": "Est à droite de l'arbitre"},
+        {"question": "Le combattant qui porte la ceinture rouge en compétition ?", "options": ["Est à droite de l'arbitre", "Est le vainqueur du combat", "Est disqualifié", "Est tête de série"], "answer": "Est à droite de l'arbitre"},
         {"question": "Comment dit-on j'abandonne ?", "options": ["Maeta", "Jan-ne-mar", "Tai-sabaki", "Shime-waza"], "answer": "Maeta"},
         {"question": "Qui est le judoka Français le plus titré ?", "options": ["Teddy Riner", "Clarisse Agbégnénou", "David Douillet", "Lucie Décosse"], "answer": "Teddy Riner"},
         {"question": "Que signifie 'Yoshi' ?", "options": ["Reprenez", "Ne bougez pas", "Allez boire un coup", "Saluez"], "answer": "Reprenez"},
