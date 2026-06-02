@@ -102,8 +102,8 @@ QUIZ_DATA = {
         {"question": "Le combattant qui porte la ceinture rouge en compétition ?", "options": ["Est à droite de l'arbitre", "Est le vainqueur du combat", "Est disqualifié", "Est tête de série"], "answer": "Est à droite de l'arbitre"},
         {"question": "Comment dit-on j'abandonne ?", "options": ["Maeta", "Jan-ne-mar", "Tai-sabaki", "Shime-waza"], "answer": "Maeta"},
         {"question": "Qui est le judoka Français le plus titré ?", "options": ["Teddy Riner", "Clarisse Agbégnénou", "David Douillet", "Lucie Décosse"], "answer": "Teddy Riner"},
-        {"question": "Que signifie 'Yoshi' ?", "options": ["Reprenez", "Ne bougez pas", "Allez boire un coup", "Saluez"], "answer": "Reprenez"},
-        {"question": "Que signifie 'Sonomama' ?", "options": ["Ne bougez pas", "La musique de maman", "Continuez", "Commencez"], "answer": "Ne bougez pas"},
+        {"question": "Que signifie 'O' ?", "options": ["Grand", "Talon", "Maître", "Cercle"], "answer": "Grand"},
+        {"question": "Que signifie 'Soto' ?", "options": ["Extérieur", "Intérieur", "Devant", "Derrière"], "answer": "Extérieur"é"},
         {"question": "Quel terme signifie la fin du combat en compétition ?", "options": ["Soremade", "Waza-ari", "Yuko", "Hikite"], "answer": "Soremade"},
         {"question": "Qu'est ce qu'un 'Mondo' ?", "options": ["Un moment de questions / réponses", "Une démonstration technique", "Un championnat du monde", "Un droit d'accès"], "answer": "Un moment de questions / réponses"},
         {"question": "Que signifie 'Joseki' ?", "options": ["Le jury", "La compétitition", "L'attaque simultanée", "le partenaire"], "answer": "Le jury"},
@@ -114,6 +114,8 @@ QUIZ_DATA = {
         {"question": "Quel mot signifie 'répétitions de mouvement avec chute' ?", "options": ["Nage-komi", "Uchi-komi", "Randori", "Safe-shute"], "answer": "Nage-komi"},
         {"question": "Maître Kawaishi (Mikinosuke Kawaishi) est ?", "options": ["L'inventeur des ceintures de couleur", "Le 1er Champion du monde", "Le Fils de Jigoro Kano", "En vacances"], "answer": "L'inventeur des ceintures de couleur"},
         {"question": "Que signifie 'ko' ?", "options": ["Petit", "Cuillère", "Adversaire", "Intérieur"], "answer": "Petit"}
+        {"question": "Qu'est ce qu'un 'Yaku soku geiko' ?", "options": ["Un randori ouvert ou chacun laisse des opportunités à l'autre", "La porte du dojo", "Une technique de concentration", "Un combat souple où Tori attaque et Uke défend"], "answer": "Un randori ouvert ou chacun laisse des opportunités à l'autre"}
+        {"question": "Qu'est ce qu'un 'Kakari Geiko' ?", "options": ["Un combat souple où Tori attaque et Uke défend", "La porte du dojo", "Une technique de concentration avant le salut", "Un randori ouvert ou chacun laisse des opportunités à l'autre"], "answer": "Un combat souple où Tori attaque et Uke défend"}
     ],
     "Ceinture Verte": [
         {"question": "Comment appelle-t-on les techniques de strangulation / d'étranglement ?", "options": ["Shime-waza", "Kansetsu-waza", "Osaekomi-waza", "Atemi-waza"], "answer": "Shime-waza"},
