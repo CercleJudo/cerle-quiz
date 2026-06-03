@@ -202,7 +202,7 @@ QUIZ_DATA = {
         {"question": "Quelle technique signifie 'Ramassage des deux jambes' (aujourd'hui interdite en compétition moderne) ?", "options": ["Morote-gari", "Kuchiki-taoshi", "Kibisu-gaeshi", "Sukui-nage"], "answer": "Morote-gari"},
         {"question": "Que signifie 'Sukui-nage' (aujourd'hui interdite en compétition moderne) ?", "options": ["Projection en cuillère", "Projection par l'épaule", "Enroulement de hanche", "Accrochage du talon"], "answer": "Projection en cuillère"},
         {"question": "Qu'est-ce que le 'Gokyo' (ou Gokyo-no-waza) en Judo ?", "options": ["Le programme officiel originel des 40 projections du Judo classées en 5 groupes", "Le code d'arbitrage international", "Le recueil des techniques de clés", "Le règlement intérieur du dojo"], "answer": "Le programme officiel originel des 40 projections du Judo classées en 5 groupes"},
-        {"question": "Que signifie 'Te-guruma' (aujourd'hui interdite en compétition moderne) ?", "options": ["Roue par les mains (enroulement par les jambes)", "Fauchage d'épaule", "Accrochage intérieur de cuisse", "Contre de hanche flottante"], "answer": "Roue par les mains (enroulement par les jambes)"},
+        {"question": "Que signifie 'Te-guruma' (aujourd'hui interdite en compétition moderne) ?", "options": ["Roue par les mains", "Fauchage d'épaule", "Accrochage intérieur de cuisse", "Contre de hanche flottante"], "answer": "Roue par les mains"},
         {"question": "Que signifie 'Tokui-waza' ?", "options": ["La technique favorite d'un judoka", "La technique interdite", "La technique fondamentale", "La chute avant parfaite"], "answer": "La technique favorite d'un judoka"},
     ],    
 }
