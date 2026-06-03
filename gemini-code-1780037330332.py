@@ -10,7 +10,7 @@ QUIZ_DATA = {
         {"question": "Qui est le fondateur du Judo ?", "options": ["Jigorō Kanō", "Morihei Ueshiba", "Gichin Funakoshi", "Akira Kurosawa"], "answer": "Jigorō Kanō"},
         {"question": "En quelle année le Judo a-t-il été créé ?", "options": ["1882", "1900", "1945", "1750"], "answer": "1882"},
         {"question": "Quelle est la chute latérale (sur le côté) ?", "options": ["Yoko-ukemi", "Ushiro-ukemi", "Mae-ukemi", "Mae-mawari"], "answer": "Yoko-ukemi"},
-        {"question": "Comment appelle-t-on la chute avant en judo ?", ["Mae-ukemi", "Yoko-ukemi", "Ushiro-ukemi", "Zenpo-kaiten"], "answer": "Mae-ukemi"},
+        {"question": "Comment appelle-t-on la chute avant en judo ?", "options": ["Mae-ukemi", "Yoko-ukemi", "Ushiro-ukemi", "Zenpo-kaiten"], "answer": "Mae-ukemi"},
         {"question": "Que signifie 'Ukemi' ?", "options": ["Les brise-chutes", "Les projections", "Les contrôles au sol", "Les esquives"], "answer": "Les brise-chutes"},
         {"question": "Quelle est la chute vers l'arrière ?", "options": ["Ushiro-ukemi", "Yoko-ukemi", "Mae-ukemi", "Zenpo-kaiten"], "answer": "Ushiro-ukemi"},
         {"question": "Comment appelle-t-on le lieu où l'on pratique le judo ?", "options": ["Le Dojo", "Le Tatami", "Le Stadium", "Le Ring"], "answer": "Le Dojo"},
