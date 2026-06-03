@@ -17,7 +17,7 @@ QUIZ_DATA = {
         {"question": "Comment appelle-t-on le tapis de judo ?", "options": ["Le Tatami", "Le Judogi", "Le Shiai", "Le Randori"], "answer": "Le Tatami"},
         {"question": "Que signifie le terme 'Rei' ?", "options": ["Le salut", "Le professeur", "La chute", "L'arrêt"], "answer": "Le salut"},
         {"question": "Comment salue-t-on debout ?", "options": ["Ritsurei", "Zarei", "Hajime", "Chokurei"], "answer": "Ritsurei"},
-        {"question": "Comment salue-t-on au sol / à genoux ?", "options": ["Zarei", "Ritsurei", "Anza", "Sensei-ni"], "answer": "Zarei"}
+        {"question": "Comment salue-t-on au sol / à genoux ?", "options": ["Zarei", "Ritsurei", "Anza", "Sensei-ni"], "answer": "Zarei"},
         {"question": "Comment dit-on 'Commencez' en judo ?", "options": ["Hajime", "Matte", "Sore-made", "Osae-komi"], "answer": "Hajime"},
         {"question": "Comment dit-on 'Arrêtez' en judo ?", "options": ["Matte", "Hajime", "Sono-mama", "Yuko"], "answer": "Matte"},
         {"question": "Comment dit-on j'abandonne ?", "options": ["Maeta", "Jan-ne-mar", "Tai-sabaki", "Shime-waza"], "answer": "Maeta"},
