@@ -69,7 +69,7 @@ QUIZ_DATA = {
         {"question": "Comment appelle-t-on la veste du judogi ?", "options": ["Uwagi", "Zubon", "Obi", "Zori"], "answer": "Uwagi"},
         {"question": "Comment appelle-t-on le pantalon du judogi ?", "options": ["Zubon", "Uwagi", "Obi", "Zori"], "answer": "Zubon"},
         {"question": "Quel mot désigne les sandales utilisées hors du tatami ?", "options": ["Zori", "Zubon", "Tatami", "Geta"], "answer": "Zori"},
-        {"question": "Comment appelle-t-on la manche du judogi ?", "options": ["Sode", "Eri", "Obi", "Zubon"], "answer": "Sode"}
+        {"question": "Comment appelle-t-on la manche du judogi ?", "options": ["Sode", "Eri", "Obi", "Zubon"], "answer": "Sode"},
         {"question": "Que signifie le terme 'Eri' ?", "options": ["Le revers de la veste", "La manche", "La ceinture", "Le pantalon"], "answer": "Le revers de la veste"},
         {"question": "Quel terme annonce qu'une immobilisation est rompus/brisée ?", "options": ["Toketa", "Osae-komi", "Matte", "Hime"], "answer": "Toketa"},
         {"question": "Quel est le plus petit score en compétition ?", "options": ["Yuko", "Waza-ari", "Waza-ari-awasete-ippon", "Ippon"], "answer": "Yuko"},
