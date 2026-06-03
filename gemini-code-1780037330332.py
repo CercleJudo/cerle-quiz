@@ -182,7 +182,7 @@ QUIZ_DATA = {
         {"question": "À quel rang (Kyu) correspond la Ceinture Bleue ?", "options": ["2ème Kyu", "3ème Kyu", "1er Kyu", "5ème Kyu"], "answer": "2ème Kyu"},        
         {"question": "Que signifie 'Ushironano-jime' (ou Ushiro-jime) ?", "options": ["Étranglement arrière", "Étranglement de face", "Clé de bras inversée", "Immobilisation sur le ventre"], "answer": "Étranglement arrière"},
         {"question": "Que signifie 'Ude-garami' ?", "options": ["Clé de bras par enroulement", "Clé de coude directe en extension", "Étranglement par la manche", "Immobilisation faciale"], "answer": "Clé de bras par enroulement"},
-        {"question": "Quel mot japonais définit le code moral ou la conduite du combattant ?", "options": ["Bushido", "Reishiki", "Kata", "Sempai"], "answer": "Bushido"}
+        {"question": "Quel mot japonais définit le code moral ou la conduite du combattant ?", "options": ["Bushido", "Reishiki", "Kata", "Sempai"], "answer": "Bushido"},
         {"question": "Que signifie 'Shintai' ?", "options": ["Les déplacements", "Les esquives", "Les saluts", "Les saisies"], "answer": "Les déplacements"},
         {"question": "Comment appelle-t-on le déplacement en pas glissé avec le même pied devant (un pied chasse l'autre) ?", "options": ["Tsugi-ashi", "Ayumi-ashi", "Tai-sabaki", "Suri-ashi"], "answer": "Tsugi-ashi"},
         {"question": "Comment appelle-t-on le déplacement en pas marchés normaux ?", "options": ["Ayumi-ashi", "Tsugi-ashi", "Tai-sabaki", "Mae-geri"], "answer": "Ayumi-ashi"},
