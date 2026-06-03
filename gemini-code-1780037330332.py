@@ -59,7 +59,7 @@ QUIZ_DATA = {
         {"question": "Comment qualifie-t-on le travail au sol ?", "options": ["Ne-waza", "Nage-waza", "Tachi-waza", "Katas"], "answer": "Ne-waza"},
         {"question": "Comment qualifie-t-on le travail debout ?", "options": ["Tachi-waza", "Ne-waza", "Nage-waza", "Katas"], "answer": "Tachi-waza"},
         {"question": "Comment appelle-t-on l'ensemble des techniques d'immobilisation au sol ?", "options": ["Osae-waza", "Shime-waza", "Kansetsu-waza", "Atemi-waza"], "answer": "Osae-waza"},
-        {"question": "Que signifie 'Kuzure' devant le nom d'une immobilisation (ex: Kuzure-kami-shiho-gatame) ?", "options": ["Variante", "Forme fondamentale", "Forme inversée", "Technique interdite"], "answer": "Variante"}
+        {"question": "Que signifie 'Kuzure' devant le nom d'une immobilisation (ex: Kuzure-kami-shiho-gatame) ?", "options": ["Variante", "Forme fondamentale", "Forme inversée", "Technique interdite"], "answer": "Variante"},
         {"question": "Je peux sortir d'immobilisation en :", "options": ["Prenant la jambe de mon partenaire", "Appelant le professeur", "Faisant un kiai", "Prenant la porte"], "answer": "Prenant la jambe de mon partenaire"},
         {"question": "Quel est le sens de 'O-uchi-gari' ?", "options": ["Grand fauchage intérieur", "Petit fauchage intérieur", "Grand fauchage extérieur", "Fauchage par la hanche"], "answer": "Grand fauchage intérieur"},
         {"question": "Quelle technique se traduit par 'Projection de l'épaule par un bras' ?", "options": ["Ippon-seoi-nage", "Morote-seoi-nage", "Eri-seoi-nage", "Tai-otoshi"], "answer": "Ippon-seoi-nage"},
