@@ -130,7 +130,7 @@ QUIZ_DATA = {
         {"question": "Quel terme désigne le côté opposé à la place d'honneur (où s'installent les élèves) ?", "options": ["Shimoza", "Kamiza", "Joseki", "Shimoseki"], "answer": "Shimoza"},
         {"question": "Comment est nomé l'élève avancé en connaissance ?", "options": ["Senpai", "Sensei", "Shihan", "Kohai"], "answer": "Senpai"},
         {"question": "Que signifie 'Kohai' ?", "options": ["Le jeune élève", "Le haut gradé", "Le doué", "L'influanseur"], "answer": "Le jeune élève"},
-        {"question": "Lequel de ces gestes de l'arbitre ne donne pas lieu à une pénalité": ["Inviter les combattants s'avancer", "Fausse attaque", "Non combativité", "Réajustement du judogi"], "answer": "Inviter les combattants s'avancer"},
+        {"question": "Lequel de ces gestes de l'arbitre ne donne pas lieu à une pénalité", "options": ["Inviter les combattants à s'avancer", "Fausse attaque", "Non combativité", "Réajustement du judogi"], "answer": "Inviter les combattants à s'avancer"},
         {"question": "À quel rang de couleur correspond l'expression 'Ceinture Orange' ?", "options": ["4ème Kyu", "5ème Kyu", "3ème Kyu", "6ème Kyu"], "answer": "4ème Kyu"},
         {"question": "En osae-komi il y a 'Yuko' si le temps d'immobilisation est de :", "options": ["5 à 9 secondes", "10 à 16 secondes", "5 à 14 secondes", "10 à 15 secondes"], "answer": "5 à 9 secondes"},
         {"question": "En osae-komi il y a 'Waza-ari' si le temps d'immobilisation est de :", "options": ["10 à 19 secondes", "10 à 20 secondes", "12 à 18 secondes", "5 à 14 secondes"], "answer": "10 à 19 secondes"},
