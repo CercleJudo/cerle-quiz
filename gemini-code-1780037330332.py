@@ -209,8 +209,8 @@ QUIZ_DATA = {
         {"question": "Quelle est la particularité de la technique 'Nidan-ko-soto-gari' ?", "options": ["C'est un petit fauchage extérieur effectué sur la deuxième jambe", "Elle s'exécute uniquement à genoux", "Elle utilise une saisie double aux revers", "C'est un grand balayage intérieur"], "answer": "C'est un petit fauchage extérieur effectué sur la deuxième jambe"},
         {"question": "Que signifie la technique 'Harai-tsuri-komi-ashi' ?", "options": ["Balayage du pied en pêchant et en levant", "Accrochage de la jambe en arrière", "Étranglement en croix", "Projection de hanche par le revers"], "answer": "Balayage du pied en pêchant et en levant"},
         {"question": "Comment se traduit la technique de projection 'Kubi-nage' ?", "options": ["Projection par le cou", "Chute amortie vers l'avant", "Projection par les épaules", "Étranglement à mains nues"], "answer": "Projection par le cou"},
-        {"question": "Pour l'étranglement 'Gyaku-juji-jime' (en croix inversé), quelle est la position des mains de Tori ?", "options": ["Les pouces sont à l'intérieur des revers", "Les pouces sont à l'extérieur des revers", "Une main avec le pouce à l'intérieur, l'autre à l'extérieur", "Les mains attrapent directement les manches"], "answer": "Les pouces sont à l'intérieur des revers"},
-        {"question": "Quelle est la caractéristique principale de 'Nami-juji-jime' (en croix normal) ?", "options": ["Les deux mains saisissent les revers avec les pouces à l'extérieur", "L'étranglement s'effectue à l'aide des jambes", "Les bras ne se croisent pas lors de la saisie", "Il s'agit d'une clé de bras en extension"], "answer": "Les deux mains saisissent les revers avec les pouces à l'extérieur"},
+        {"question": "Pour l'étranglement 'Gyaku-juji-jime' (en croix inversé), quelle est la position des mains de Tori ?", "options": ["Les pouces sont à l'extérieur des revers", "Les pouces sont à l'intérieur des revers", "Une main avec le pouce à l'intérieur, l'autre à l'extérieur", "Les mains attrapent directement les manches"], "answer": "Les pouces sont à l'extérieur des revers"},
+        {"question": "Quelle est la caractéristique principale de 'Nami-juji-jime' (en croix normal) ?", "options": ["Les pouces sont à l'intérieur des revers", "L'étranglement s'effectue à l'aide des jambes", "Les bras ne se croisent pas lors de la saisie", "Il s'agit d'une clé de bras en extension"], "answer": "Les pouces sont à l'intérieur des revers"},
         {"question": "La technique au sol 'Sankaku-jime' prend la forme de quelle figure géométrique avec les jambes ?", "options": ["Un triangle", "Un carré", "Une croix", "Un cercle"], "answer": "Un triangle"},
         {"question": "Que signifie 'Sankaku-jime' ?", "options": ["Étranglement en triangle", "Étranglement nu", "Étranglement par les deux revers", "Clé de bras en extension"], "answer": "Étranglement en triangle"},
     ],
@@ -301,14 +301,14 @@ BELT_ORDER = [
 BELT_WEIGHTS = {
     "Ceinture Blanche-Jaune": 1,
     "Ceinture Jaune": 1,
-    "Ceinture Jaune-Orange": 1,
-    "Ceinture Orange": 1,
-    "Ceinture Orange-Verte": 2,
-    "Ceinture Verte": 2,
-    "Ceinture Verte et Bleue": 3,
-    "Ceinture Bleue": 3,
-    "Ceinture Bleue-Marron": 3,
-    "Ceinture Marron": 3,
+    "Ceinture Jaune-Orange": 2,
+    "Ceinture Orange": 2,
+    "Ceinture Orange-Verte": 3,
+    "Ceinture Verte": 3,
+    "Ceinture Verte et Bleue": 4,
+    "Ceinture Bleue": 4,
+    "Ceinture Bleue-Marron": 4,
+    "Ceinture Marron": 4,
 }
 
 # --- INITIALISATION DE L'APPLICATION STREAMLIT ---
