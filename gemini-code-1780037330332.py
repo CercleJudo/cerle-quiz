@@ -1,4 +1,5 @@
 import random
+from PIL import Image
 import streamlit as st
 
 # ==========================================
@@ -245,7 +246,8 @@ def toggle_theme():
 theme_label = "☀️ Mode clair" if st.session_state.theme == "dark" else "🌙 Mode sombre"
 col1, col2, col3 = st.columns([1, 7, 1])
 with col1:
-    st.image("Logo Cercle Judo Vesoul Plus large.jpg", width=200)
+    club_logo = Image.open("Logo Cercle Judo Vesoul Plus large.jpg")
+    st.image(club_logo, width=400)
 with col2:
     st.title("🥋 Quiz JUDO Ceinture")
 with col3:
