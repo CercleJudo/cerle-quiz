@@ -245,7 +245,7 @@ def toggle_theme():
 theme_label = "☀️ Mode clair" if st.session_state.theme == "dark" else "🌙 Mode sombre"
 col1, col2 = st.columns([9, 1])
 with col1:
-    st.title("🥋 Quiz Interactif de Progression des Ceintures")
+    st.title("🥋 Quiz de Progression des Ceintures")
 with col2:
     st.button(theme_label, key="theme_button", on_click=toggle_theme)
 
@@ -307,7 +307,7 @@ if "quiz_started" not in st.session_state:
 
 # --- ÉCRAN DE CONFIGURATION (AVANT DE COMMENCER) ---
 if not st.session_state.quiz_started:
-    st.subheader("Configuration de votre test")
+    st.subheader("Choisir :")
     
     target_belt = st.selectbox("Sélectionnez la ceinture que vous préparez :", BELT_ORDER)
     num_q = st.slider("Nombre de questions pour le quiz :", min_value=5, max_value=20, value=10, step=5)
