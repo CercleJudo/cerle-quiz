@@ -249,14 +249,14 @@ col1, col2, col3 = st.columns([2, 6, 1])
 with col1:
     logo_path = Path("Logo Cercle Judo Vesoul Plus large.jpg")
     logo_data = base64.b64encode(logo_path.read_bytes()).decode()
-        st.markdown(
-                f"""
-                <div style="width:500px; height:40px; box-sizing:border-box; background:#ffffff; border-radius:8px; overflow:hidden; display:flex; align-items:center; justify-content:center;">
-                    <img src="data:image/jpeg;base64,{logo_data}" style="height:100%; width:auto; display:block; object-fit:contain;" />
-                </div>
-                """,
-                unsafe_allow_html=True,
-        )
+    st.markdown(
+        f"""
+        <div style="width:500px; height:40px; box-sizing:border-box; background:#ffffff; border-radius:8px; overflow:hidden; display:flex; align-items:center; justify-content:center;">
+            <img src="data:image/jpeg;base64,{logo_data}" style="height:100%; width:auto; display:block; object-fit:contain;" />
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
 with col2:
     st.title("🥋 Quiz JUDO CEINTURE")
 with col3:
