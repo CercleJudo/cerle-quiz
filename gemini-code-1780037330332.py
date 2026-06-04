@@ -283,32 +283,11 @@ if st.session_state.theme == "dark":
     div[data-testid="stForm"] label {
         color: #e5e7eb !important;
     }
-    h1, h2, h3, h4, h5, h6,
-    h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
-    h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover,
-    h1 a::before, h2 a::before, h3 a::before, h4 a::before, h5 a::before, h6 a::before,
-    h1 a::after, h2 a::after, h3 a::after, h4 a::after, h5 a::after, h6 a::after,
-    a, a:link, a:visited, a:hover, a:active,
-    a *, a:hover *, a:active *,
-    a::before, a::after,
-    a *::before, a *::after,
-    .css-1e5imcs a, .css-1e5imcs a *, .stMarkdown a, .stMarkdown a *,
-    .css-1e5imcs a::before, .css-1e5imcs a::after, .stMarkdown a::before, .stMarkdown a::after {
+    a, a * {
         color: inherit !important;
         text-decoration: none !important;
-        text-decoration-line: none !important;
-        text-decoration-color: transparent !important;
-        text-decoration-style: none !important;
-        text-decoration-thickness: 0 !important;
-        -webkit-text-decoration-color: transparent !important;
-        -webkit-text-fill-color: currentColor !important;
-        background: transparent !important;
-        background-image: none !important;
-        border: none !important;
-        box-shadow: none !important;
-        outline: none !important;
         cursor: default !important;
-        content: none !important;
+        pointer-events: none !important;
     }
     div.stButton>button, button[kind="primary"] {
         background-color: #1f2937 !important;
@@ -337,29 +316,11 @@ else:
     h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover,
     h1 a::before, h2 a::before, h3 a::before, h4 a::before, h5 a::before, h6 a::before,
     h1 a::after, h2 a::after, h3 a::after, h4 a::after, h5 a::after, h6 a::after,
-    a, a:link, a:visited, a:hover, a:active,
-    a *, a:hover *, a:active *,
-    a::before, a::after,
-    a *::before, a *::after,
-    .stMarkdown a, .stMarkdown a *,
-    .stMarkdown a::before, .stMarkdown a::after,
-    div[data-testid="stMarkdownContainer"] a, div[data-testid="stMarkdownContainer"] a *,
-    div[data-testid="stMarkdownContainer"] a::before, div[data-testid="stMarkdownContainer"] a::after {
+    a, a * {
         color: inherit !important;
         text-decoration: none !important;
-        text-decoration-line: none !important;
-        text-decoration-color: transparent !important;
-        text-decoration-style: none !important;
-        text-decoration-thickness: 0 !important;
-        -webkit-text-decoration-color: transparent !important;
-        -webkit-text-fill-color: currentColor !important;
-        background: transparent !important;
-        background-image: none !important;
-        border: none !important;
-        box-shadow: none !important;
-        outline: none !important;
         cursor: default !important;
-        content: none !important;
+        pointer-events: none !important;
     }
     div.stButton>button, button[kind="primary"] {
         background-color: #e2e8f0 !important;
