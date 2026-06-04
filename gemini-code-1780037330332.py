@@ -284,13 +284,26 @@ if st.session_state.theme == "dark":
         color: #e5e7eb !important;
     }
     a, a:link, a:visited, a:hover, a:active,
-    a *, a:hover *, a:active * {
+    a *, a:hover *, a:active *,
+    a::before, a::after,
+    a *::before, a *::after,
+    .css-1e5imcs a, .css-1e5imcs a *, .stMarkdown a, .stMarkdown a *,
+    .css-1e5imcs a::before, .css-1e5imcs a::after, .stMarkdown a::before, .stMarkdown a::after {
         color: inherit !important;
         text-decoration: none !important;
+        text-decoration-line: none !important;
+        text-decoration-color: transparent !important;
+        text-decoration-style: none !important;
+        text-decoration-thickness: 0 !important;
+        -webkit-text-decoration-color: transparent !important;
+        -webkit-text-fill-color: currentColor !important;
         background: transparent !important;
+        background-image: none !important;
         border: none !important;
         box-shadow: none !important;
         outline: none !important;
+        cursor: default !important;
+        content: none !important;
     }
     div.stButton>button, button[kind="primary"] {
         background-color: #1f2937 !important;
@@ -315,13 +328,28 @@ else:
         color: #111827 !important;
     }
     a, a:link, a:visited, a:hover, a:active,
-    a *, a:hover *, a:active * {
+    a *, a:hover *, a:active *,
+    a::before, a::after,
+    a *::before, a *::after,
+    .stMarkdown a, .stMarkdown a *,
+    .stMarkdown a::before, .stMarkdown a::after,
+    div[data-testid="stMarkdownContainer"] a, div[data-testid="stMarkdownContainer"] a *,
+    div[data-testid="stMarkdownContainer"] a::before, div[data-testid="stMarkdownContainer"] a::after {
         color: inherit !important;
         text-decoration: none !important;
+        text-decoration-line: none !important;
+        text-decoration-color: transparent !important;
+        text-decoration-style: none !important;
+        text-decoration-thickness: 0 !important;
+        -webkit-text-decoration-color: transparent !important;
+        -webkit-text-fill-color: currentColor !important;
         background: transparent !important;
+        background-image: none !important;
         border: none !important;
         box-shadow: none !important;
         outline: none !important;
+        cursor: default !important;
+        content: none !important;
     }
     div.stButton>button, button[kind="primary"] {
         background-color: #e2e8f0 !important;
