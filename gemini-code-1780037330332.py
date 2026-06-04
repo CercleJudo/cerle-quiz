@@ -283,6 +283,15 @@ if st.session_state.theme == "dark":
     div[data-testid="stForm"] label {
         color: #e5e7eb !important;
     }
+    a[href^="#"],
+    a[href^="#"] *,
+    .anchor-link,
+    .anchor-link::before,
+    .anchor-link::after {
+        display: none !important;
+        pointer-events: none !important;
+        content: none !important;
+    }
     a, a * {
         color: inherit !important;
         text-decoration: none !important;
@@ -316,11 +325,18 @@ else:
     h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover,
     h1 a::before, h2 a::before, h3 a::before, h4 a::before, h5 a::before, h6 a::before,
     h1 a::after, h2 a::after, h3 a::after, h4 a::after, h5 a::after, h6 a::after,
+    a[href^="#"],
+    a[href^="#"] *,
+    .anchor-link,
+    .anchor-link::before,
+    .anchor-link::after,
     a, a * {
         color: inherit !important;
         text-decoration: none !important;
         cursor: default !important;
         pointer-events: none !important;
+        display: none !important;
+        content: none !important;
     }
     div.stButton>button, button[kind="primary"] {
         background-color: #e2e8f0 !important;
