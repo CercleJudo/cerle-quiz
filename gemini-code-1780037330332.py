@@ -283,10 +283,14 @@ if st.session_state.theme == "dark":
     div[data-testid="stForm"] label {
         color: #e5e7eb !important;
     }
-    a, a:link, a:visited, a:hover, a:active {
+    a, a:link, a:visited, a:hover, a:active,
+    a *, a:hover *, a:active * {
         color: inherit !important;
         text-decoration: none !important;
+        background: transparent !important;
         border: none !important;
+        box-shadow: none !important;
+        outline: none !important;
     }
     div.stButton>button, button[kind="primary"] {
         background-color: #1f2937 !important;
@@ -310,10 +314,14 @@ else:
         background-color: #ffffff !important;
         color: #111827 !important;
     }
-    a, a:link, a:visited, a:hover, a:active {
+    a, a:link, a:visited, a:hover, a:active,
+    a *, a:hover *, a:active * {
         color: inherit !important;
         text-decoration: none !important;
+        background: transparent !important;
         border: none !important;
+        box-shadow: none !important;
+        outline: none !important;
     }
     div.stButton>button, button[kind="primary"] {
         background-color: #e2e8f0 !important;
