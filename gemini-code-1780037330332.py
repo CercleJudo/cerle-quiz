@@ -250,7 +250,11 @@ with col1:
     logo_path = Path("Logo Cercle Judo Vesoul Plus large.jpg")
     logo_data = base64.b64encode(logo_path.read_bytes()).decode()
     st.markdown(
-        f"<img src=\"data:image/jpeg;base64,{logo_data}\" width=\"500\" height=\"48\" style=\"object-fit:contain; vertical-align:middle;\" />",
+        f"""
+        <div style="width:500px; box-sizing:border-box; padding:8px 0; background:#ffffff; border-radius:8px; overflow:hidden; display:inline-block;">
+          <img src="data:image/jpeg;base64,{logo_data}" style="width:100%; height:auto; display:block; object-fit:contain;" />
+        </div>
+        """,
         unsafe_allow_html=True,
     )
 with col2:
