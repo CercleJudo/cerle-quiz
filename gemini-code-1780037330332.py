@@ -249,7 +249,7 @@ with col1:
     club_logo = Image.open("Logo Cercle Judo Vesoul Plus large.jpg")
     st.image(club_logo, width=500)
 with col2:
-    st.title("' 🥋 Quiz JUDO Ceinture '")
+    st.title("' 🥋 Quiz JUDO CEINTURE ")
 with col3:
     st.button(theme_label, key="theme_button", on_click=toggle_theme)
 
@@ -306,7 +306,7 @@ else:
 
 st.markdown(page_style, unsafe_allow_html=True)
 
-st.write("Évaluez vos connaissances théoriques du judo. Chaque niveau inclut ses questions ainsi que celles des ceintures précédentes !")
+st.write("Évaluez vos connaissances avec le Cercle Judo Vesoul !")
 
 if "quiz_started" not in st.session_state:
     st.session_state.quiz_started = False
