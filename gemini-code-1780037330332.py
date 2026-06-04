@@ -258,7 +258,7 @@ with col1:
         unsafe_allow_html=True,
     )
 with col2:
-    st.title("🥋 Quiz JUDO CEINTURE")
+    st.title("🥋 Quiz JUDO CEINTURES")
 with col3:
     st.button(theme_label, key="theme_button", on_click=toggle_theme)
 
