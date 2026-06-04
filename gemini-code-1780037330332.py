@@ -251,8 +251,8 @@ with col1:
     logo_data = base64.b64encode(logo_path.read_bytes()).decode()
     st.markdown(
         f"""
-        <div style="width:500px; height:40px; box-sizing:border-box; background:#ffffff; border-radius:8px; overflow:hidden; display:flex; align-items:center; justify-content:center;">
-            <img src="data:image/jpeg;base64,{logo_data}" style="height:100%; width:auto; display:block; object-fit:contain;" />
+        <div style="display:inline-flex; box-sizing:border-box; padding:6px 0; background:#ffffff; border-radius:8px; overflow:hidden; align-items:center; justify-content:center;">
+            <img src="data:image/jpeg;base64,{logo_data}" style="width:500px; height:auto; display:block; object-fit:contain;" />
         </div>
         """,
         unsafe_allow_html=True,
