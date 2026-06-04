@@ -450,7 +450,11 @@ if not st.session_state.quiz_started:
     target_belt = st.selectbox("Sélectionnez la ceinture que vous préparez :", BELT_ORDER)
     num_q = st.slider("Nombre de questions pour le quiz :", min_value=5, max_value=20, value=10, step=5)
     
-    if st.button("🥋 Hajime !", type="primary"):
+    col1, col2, col3 = st.columns([1, 1, 1])
+    with col2:
+        button_clicked = st.button("🥋 Hajime !", type="primary", use_container_width=True)
+    
+    if button_clicked:
         weighted_questions = []
         for belt in BELT_ORDER:
             for question in QUIZ_DATA[belt]:
