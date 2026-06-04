@@ -243,10 +243,12 @@ def toggle_theme():
     st.session_state.theme = "light" if st.session_state.theme == "dark" else "dark"
 
 theme_label = "☀️ Mode clair" if st.session_state.theme == "dark" else "🌙 Mode sombre"
-col1, col2 = st.columns([9, 1])
+col1, col2, col3 = st.columns([1, 7, 1])
 with col1:
-    st.title("🥋 Quiz JUDO Ceinture")
+    st.image("Logo Cercle Judo Vesoul Plus large.jpg", width=100)
 with col2:
+    st.title("🥋 Quiz JUDO Ceinture")
+with col3:
     st.button(theme_label, key="theme_button", on_click=toggle_theme)
 
 if st.session_state.theme == "dark":
