@@ -268,6 +268,12 @@ if st.session_state.theme == "dark":
         background-color: #111827 !important;
         color: #e5e7eb !important;
     }
+    label,
+    div[data-testid="stSelectbox"] label,
+    div[data-testid="stSlider"] label,
+    div[data-testid="stForm"] label {
+        color: #e5e7eb !important;
+    }
     div.stButton>button, button[kind="primary"] {
         background-color: #1f2937 !important;
         color: #f9fafb !important;
