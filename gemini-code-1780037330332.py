@@ -283,6 +283,11 @@ if st.session_state.theme == "dark":
     div[data-testid="stForm"] label {
         color: #e5e7eb !important;
     }
+    h1, h2, h3, h4, h5, h6,
+    h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
+    h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover,
+    h1 a::before, h2 a::before, h3 a::before, h4 a::before, h5 a::before, h6 a::before,
+    h1 a::after, h2 a::after, h3 a::after, h4 a::after, h5 a::after, h6 a::after,
     a, a:link, a:visited, a:hover, a:active,
     a *, a:hover *, a:active *,
     a::before, a::after,
@@ -327,6 +332,11 @@ else:
         background-color: #ffffff !important;
         color: #111827 !important;
     }
+    h1, h2, h3, h4, h5, h6,
+    h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
+    h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover,
+    h1 a::before, h2 a::before, h3 a::before, h4 a::before, h5 a::before, h6 a::before,
+    h1 a::after, h2 a::after, h3 a::after, h4 a::after, h5 a::after, h6 a::after,
     a, a:link, a:visited, a:hover, a:active,
     a *, a:hover *, a:active *,
     a::before, a::after,
