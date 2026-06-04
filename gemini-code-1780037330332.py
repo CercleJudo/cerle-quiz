@@ -1,5 +1,6 @@
+import base64
 import random
-from PIL import Image
+from pathlib import Path
 import streamlit as st
 
 # ==========================================
@@ -246,10 +247,14 @@ def toggle_theme():
 theme_label = "☀️ Mode clair" if st.session_state.theme == "dark" else "🌙 Mode sombre"
 col1, col2, col3 = st.columns([2, 6, 1])
 with col1:
-    club_logo = Image.open("Logo Cercle Judo Vesoul Plus large.jpg")
-    st.image(club_logo, width=500)
+    logo_path = Path("Logo Cercle Judo Vesoul Plus large.jpg")
+    logo_data = base64.b64encode(logo_path.read_bytes()).decode()
+    st.markdown(
+        f"<img src=\"data:image/jpeg;base64,{logo_data}\" width=\"500\" height=\"48\" style=\"object-fit:contain; vertical-align:middle;\" />",
+        unsafe_allow_html=True,
+    )
 with col2:
-    st.title("' 🥋 Quiz JUDO CEINTURE ")
+    st.title("🥋 Quiz JUDO CEINTURE")
 with col3:
     st.button(theme_label, key="theme_button", on_click=toggle_theme)
 
