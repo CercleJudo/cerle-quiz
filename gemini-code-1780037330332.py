@@ -306,7 +306,10 @@ else:
 
 st.markdown(page_style, unsafe_allow_html=True)
 
-st.write("Évaluez vos connaissances avec le Cercle Judo Vesoul !")
+st.markdown(
+    "<h2 style='text-align:center; font-size:32px; margin-bottom:0.5em;'>Évaluez vos connaissances avec le Cercle Judo Vesoul !</h2>",
+    unsafe_allow_html=True
+)
 
 if "quiz_started" not in st.session_state:
     st.session_state.quiz_started = False
