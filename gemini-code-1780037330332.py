@@ -51,6 +51,9 @@ QUIZ_DATA = {
         {"question": "Comment dit-on 'Intérieur' ?", "options": ["Uchi", "Soto", "Gari", "Zavata"], "answer": "Uchi"},
         {"question": "Que signifie 'Ko' ?", "options": ["Petit", "Cuillère", "Adversaire", "Intérieur"], "answer": "Petit"},
         {"question": "Que signifie 'Gari' ?", "options": ["Fauchage", "Cuillère", "Extérieur", "Intérieur"], "answer": "Fauchage"},
+        {"question": "Quel geste fait l'arbitre pour commander l'arrêt du combat par 'Mate' ?", "options": ["Il lève une main à hauteur d'épaule, le bras tendu vers l'avant", "Il frappe dans ses mains deux fois", "Il fait un grand signe de balayage avec la jambe", "Il se tourne vers la table des commissaires en croisant les mains"], "answer": "Il lève une main à hauteur d'épaule, le bras tendu vers l'avant"},
+        {"question": "Lorsque l'arbitre annonce 'Osae-komi' (début d'immobilisation), quel geste associe-t-il à la parole ?", "options": ["Il tend le bras en avant et s'incline légèrement vers les combattants, paume vers le bas", "Il pointe son index vers le chronomètre", "Il lève le bras au ciel puis le rabat sur sa poitrine", "Il tape deux fois sur le tatami"], "answer": "Il tend le bras en avant et s'incline légèrement vers les combattants, paume vers le bas"},
+        {"question": "Quel geste l'arbitre fait-il pour annoncer 'Ippon' ?", "options": ["Il lève un bras bien haut au-dessus de la tête, paume vers l'avant", "Il lève le bras à hauteur de l'épaule, horizontalement", "Il tend le bras vers l'avant, obliquement vers le bas", "Il croise les bras devant sa poitrine"], "answer": "Il lève un bras bien haut au-dessus de la tête, paume vers l'avant"},
     ],  
     "Ceinture Jaune": [
         {"question": "Que signifie 'Anza' ?", "options": ["La position assise en tailleur", "La position à genoux", "Le salut traditionnel", "L'arbitrage"], "answer": "La position assise en tailleur"},
@@ -88,6 +91,11 @@ QUIZ_DATA = {
         {"question": "Que signifie 'Shio' ?", "options": ["sur 4 points", "Supérieur, au dessus", "Petit chien", "Avantage"], "answer": "sur 4 points"},
         {"question": "Comment dit-on 'Soulever / pêcher' ?", "options": ["Tsuri", "Soto", "Gari", "O"], "answer": "Tsuri"},
         {"question": "Que signifie 'Otoshi' ?", "options": ["Barrage", "Pied", "Blocage", "Scier"], "answer": "Barrage"},
+        {"question": "En arbitrage, comment le 'Yuko' est-il comptabilisé sur le tableau d'affichage ?", "options": ["Les Yuko s'accumulent indépendamment et ne se transforment jamais en Waza-ari", "L'accumulation de deux Yuko donne automatiquement un Waza-ari", "Trois Yuko cumulés équivalent à une victoire par Ippon", "Le Yuko n'est pas pris en compte pour la décisition de victoire"], "answer": "Les Yuko s'accumulent indépendamment et ne se transforment jamais en Waza-ari"},
+        {"question": "En osae-komi il y a 'Ippon' si le temps d'immobilisation est de :", "options": ["20 secondes", "15 secondes", "10 secondes", "12 secondes"], "answer": "20 secondes ou plus"},
+        {"question": "Quel geste fait l'arbitre pour signaler 'Toketa' (immobilisation brisée) ?", "options": ["Il place sa main vers l'avant et l'agite de gauche à droite", "Il tape dans ses mains au-dessus de sa tête", "Il croise les bras à l'horizontale puis les ouvre", "Il pointe l'adversaire du doigt"], "answer": "Il place sa main vers l'avant et l'agite de gauche à droite"},
+        {"question": "Quel geste l'arbitre effectue-t-il pour accorder un 'Waza-ari' ?", "options": ["Il lève le bras horizontalement à hauteur de l'épaule, paume vers le bas", "Il lève le bras complètement au-dessus de la tête", "Il désigne le combattant avec le pouce", "Il baisse le bras vers le sol à 45 degrés"], "answer": "Il lève le bras horizontalement à hauteur de l'épaule, paume vers le bas"},
+        {"question": "Comment l'arbitre indique-t-il le 'Yuko' ?", "options": ["Il lève le bras obliquement à 45 degrés du corps, paume vers le bas", "Il fait un cercle avec son poignet devant lui", "Il place sa main sur sa hanche", "Il pointe ses deux index vers le tableau d'affichage"], "answer": "Il lève le bras obliquement à 45 degrés du corps, paume vers le bas"},   
     ],
     "Ceinture Jaune-Orange": [
         {"question": "Que signifie 'Migite' ?", "options": ["La main droite", "La main gauche", "Le pied droit", "La saisie"], "answer": "La main droite"},
@@ -105,6 +113,7 @@ QUIZ_DATA = {
         {"question": "Quel action ne 'me permet pas de sortir d'immobilisation' ?", "options": ["Enrouler mon partenaire avec mes bras", "Prendre la ou les jambes de mon pertenaire entre mes jambes", "Me retourner sur le ventre", "Retourner mon partenaire"], "answer": "Enrouler mon partenaire avec mes bras"},
         {"question": "Que signifie 'Ko-soto-gake' ?", "options": ["Petit accrochage extérieur", "Petit fauchage extérieur", "Grand accrochage intérieur", "Balayage en cuillère"], "answer": "Petit accrochage extérieur"},
         {"question": "Quelle technique signifie 'Hanche fauchée' ?", "options": ["Harai-goshi", "Koshi-guruma", "Tsurikomi-goshi", "Hane-goshi"], "answer": "Harai-goshi"},
+        {"question": "Dans les noms de techniques comme 'De-ashi-barai', que signifie la racine 'Harai' (ou 'Barai') ?", "options": ["Balayer", "Enrouler", "Soulever", "Sauter"], "answer": "Balayer"},
         {"question": "Quelle est la signification de 'De-ashi-barai' ?", "options": ["Balayage du pied avancé", "Fauchage arrière", "Soutien du genou", "Accrochage du talon"], "answer": "Balayage du pied avancé"},
         {"question": "Quelle technique se traduit par 'Grande Roue' ?", "options": ["O-guruma", "Ashi-guruma", "Hiza-guruma", "Koshi-guruma"], "answer": "O-guruma"},
         {"question": "Quelle est la signification de 'Ko-soto-gake' ?", "options": ["Petit accrochage intérieur", "Petit fauchage extérieur", "Grand accrochage intérieur", "Balayage en cuillère"], "answer": "Petit accrochage intérieur"},
@@ -112,6 +121,7 @@ QUIZ_DATA = {
         {"question": "Que signifie l'expression 'Shin-Gi-Tai' en Judo ?", "options": ["Esprit, Technique, Corps", "Force, Vitesse, Souplesse", "Salut, Respect, Courage", "Attaque, Défense, Contre"], "answer": "Esprit, Technique, Corps"},
         {"question": "Quel mot signifie 'La main gauche' ?", "options": ["Hidarite", "Migite", "Hidari-ashi", "Migi-ashi"], "answer": "Hidarite"},
         {"question": "Quelle est la chute vers l'avant roulée ?", "options": ["Mae-mawari-ukemi", "Mae-ukemi", "Yoko-ukemi", "Ushiro-ukemi"], "answer": "Mae-mawari-ukemi"},
+        {"question": "Pour attribuer une pénalité (Shido), que fait l'arbitre ?", "options": ["Il pointe son index verticalement vers le combattant fautif après avoir mimé la faute", "Il lui tourne le dos en levant le bras", "Il lève un carton jaune en l'air", "Il croise ses deux index devant son visage"], "answer": "Il pointe son index verticalement vers le combattant fautif après avoir mimé la faute"},
     ],
     "Ceinture Orange": [
         {"question": "Quelle technique s'appelle 'Le barrage du corps' ?", "options": ["Tai-otoshi", "Ippon-seoi-nage", "Sukui-nage", "Uchi-mata"], "answer": "Tai-otoshi"},
@@ -136,6 +146,7 @@ QUIZ_DATA = {
         {"question": "À quel rang de couleur correspond l'expression 'Ceinture Orange' ?", "options": ["4ème Kyu", "5ème Kyu", "3ème Kyu", "6ème Kyu"], "answer": "4ème Kyu"},
         {"question": "En osae-komi il y a 'Yuko' si le temps d'immobilisation est de :", "options": ["5 à 9 secondes", "10 à 16 secondes", "5 à 14 secondes", "10 à 15 secondes"], "answer": "5 à 9 secondes"},
         {"question": "En osae-komi il y a 'Waza-ari' si le temps d'immobilisation est de :", "options": ["10 à 19 secondes", "10 à 20 secondes", "12 à 18 secondes", "5 à 14 secondes"], "answer": "10 à 19 secondes"},
+        {"question": "Quel geste l'arbitre fait-il pour annoncer l'annulation d'une décision précédente ?", "options": ["Il lève la main au-dessus de sa tête et l'agite de gauche à droite", "Il tourne le dos au tableau d'affichage", "Il croise les bras sur sa poitrine puis les baisse brusquement", "Il met ses deux mains sur ses yeux"], "answer": "Il lève la main au-dessus de sa tête et l'agite de gauche à droite"},
     ],
      "Ceinture Orange-Verte": [
         {"question": "Que signifie 'Hikite' ?", "options": ["La main qui tire", "Le pied avancé", "le nez", "La main droite"], "answer": "La main qui tire"},
@@ -145,7 +156,10 @@ QUIZ_DATA = {
         {"question": "Jigoro Kano a une ceinture ?", "options": ["Blanche plus large", "Qui tient son pantalon", "De corail", "violette"], "answer": "Blanche plus large"},
         {"question": "Quelle technique signifie 'Fauchage intérieur de la cuisse' ?", "options": ["Uchi-mata", "Harai-goshi", "O-uchi-gari", "O-soto-gari"], "answer": "Uchi-mata"},
         {"question": "Que signifie 'Okuri-ashi-barai' ?", "options": ["Balayage des deux pieds", "Petit fauchage de côté", "Roue autour de la jambe", "Accrochage intérieur"], "answer": "Balayage des deux pieds"},
-        {"question": "Que signifie 'O-soto-guruma' ?", "options": ["Grande roue extérieure", "Grand fauchage extérieur", "Grande hanche enroulée", "Contre de jambe"], "answer": "Grande roue extérieure"},        
+        {"question": "Que signifie 'O-soto-guruma' ?", "options": ["Grande roue extérieure", "Grand fauchage extérieur", "Grande hanche enroulée", "Contre de jambe"], "answer": "Grande roue extérieure"},
+        {"question": "Que signifie 'O-soto-otoshi' ?", "options": ["Grand renversement extérieur", "Petite fauchage intérieur", "Grande technique d'épaule", "La main qui tire"], "answer": "Grand renversement extérieur"},
+        {"question": "Que signifie 'Eri-seoi-nage' ?", "options": ["Projection de l'épaule par le revers", "Projection par le bas des manches", "Le travail debout", "La main qui soulève"], "answer": "Projection de l'épaule par le revers"},
+        {"question": "Que signifie 'Eri-seoi-otoshi' ?", "options": ["Renversement par l'épaule en saisissant le revers", "Grand fauchage extérieur", "La ceinture rouge et blanche", "Projection de hanche"], "answer": "Renversement par l'épaule en saisissant le revers"},     
         {"question": "Qui est le judoka Français le plus titré ?", "options": ["Teddy Riner", "Clarisse Agbégnénou", "David Douillet", "Lucie Décosse"], "answer": "Teddy Riner"},        
         {"question": "Qu'est ce qu'un 'Mondo' ?", "options": ["Un moment de questions / réponses", "Une démonstration technique", "Un championnat du monde", "Un droit d'accès"], "answer": "Un moment de questions / réponses"},
         {"question": "Que signifie 'Joseki' ?", "options": ["Le jury", "La compétitition", "L'attaque simultanée", "le partenaire"], "answer": "Le jury"},        
@@ -153,25 +167,52 @@ QUIZ_DATA = {
         {"question": "Quel mot signifie 'répétitions de mouvement avec chute' ?", "options": ["Nage-komi", "Uchi-komi", "Randori", "Safe-shute"], "answer": "Nage-komi"},
         {"question": "Maître Kawaishi (Mikinosuke Kawaishi) est ?", "options": ["L'inventeur des ceintures de couleur", "Le 1er Champion du monde", "Le Fils de Jigoro Kano", "En vacances"], "answer": "L'inventeur des ceintures de couleur"},        
         {"question": "Qu'est ce qu'un 'Yaku soku geiko' ?", "options": ["Un randori ouvert ou chacun laisse des opportunités à l'autre", "La porte du dojo", "Une technique de concentration", "Un combat souple où Tori attaque et Uke défend"], "answer": "Un randori ouvert ou chacun laisse des opportunités à l'autre"},
-        {"question": "Qu'est ce qu'un 'Kakari Geiko' ?", "options": ["Un combat souple où Tori attaque et Uke défend", "La porte du dojo", "Une technique de concentration avant le salut", "Un randori ouvert ou chacun laisse des opportunités à l'autre"], "answer": "Un combat souple où Tori attaque et Uke défend"},        
+        {"question": "Qu'est ce qu'un 'Kakari Geiko' ?", "options": ["Un combat souple où Tori attaque et Uke défend", "La porte du dojo", "Une technique de concentration avant le salut", "Un randori ouvert ou chacun laisse des opportunités à l'autre"], "answer": "Un combat souple où Tori attaque et Uke défend"},
+        {"question": "Que signifie 'Shomen-ni-rei' ?", "options": ["Le salut au fondateur ou au mur d'honneur", "Le salut au professeur", "Le salut entre les partenaires", "La main qui tire"], "answer": "Le salut au fondateur ou au mur d'honneur"},
+        {"question": "Que signifie 'Sensei-ni-rei' ?", "options": ["Le salut au professeur", "Le salut aux ceintures noires", "Le travail au sol", "La main qui soulève"], "answer": "Le salut au professeur"},
+        {"question": "Lors du salut (Rei), le terme 'Shomen' désigne :", "options": ["Le côté d'honneur ou l'avant du Dojo", "Le partenaire en face de soi", "L'arbitre central", "La ceinture rouge et blanche"], "answer": "Le côté d'honneur ou l'avant du Dojo"},      
     ],
     "Ceinture Verte": [
         {"question": "Comment appelle-t-on les techniques de strangulation / d'étranglement ?", "options": ["Shime-waza", "Kansetsu-waza", "Osaekomi-waza", "Atemi-waza"], "answer": "Shime-waza"},
         {"question": "Comment appelle-t-on les techniques de luxation / clés de bras ?", "options": ["Kansetsu-waza", "Shime-waza", "Nage-waza", "Ne-waza"], "answer": "Kansetsu-waza"},
         {"question": "Sur quelle articulation les clés de bras (Kansetsu-waza) sont-elles exclusivement autorisées en Judo ?", "options": ["Le coude", "Le poignet", "Le genou", "L'épaule"], "answer": "Le coude"},        
-        {"question": "Quelle technique signifie 'Projection en cercle' (sacrifice de face, pied à la ceinture) ?", "options": ["Tomoe-nage", "Ura-nage", "Sumi-gaeshi", "Yoko-gake"], "answer": "Tomoe-nage"},
+        {"question": "Quelle technique signifie 'Projection en cercle' ?", "options": ["Tomoe-nage", "Ura-nage", "Sumi-gaeshi", "Yoko-gake"], "answer": "Tomoe-nage"},
         {"question": "Que signifie 'Ushiro-goshi' ?", "options": ["Hanche arrière", "Fauchage arrière", "Grande projection par le haut", "Contre d'épaule"], "answer": "Hanche arrière"},
-        {"question": "Que signifie 'Soto-makikomi' ?", "options": ["Enroulement extérieur", "Enroulement intérieur", "Projection par la manche", "Barrage du corps"], "answer": "Enroulement extérieur"},        
-        {"question": "Que signifie 'Kata-juji-jime' ?", "options": ["Étranglement croisé mains inversées", "Étranglement par le côté", "Étranglement à l'envers", "Étranglement nu"], "answer": "Étranglement croisé mains inversées"},
+        {"question": "Que signifie 'Soto-makikomi' ?", "options": ["Enroulement extérieur", "Enroulement intérieur", "Projection par la manche", "Barrage du corps"], "answer": "Enroulement extérieur"},
+        {"question": "Que signifie 'Sode-tsuri-komi-goshi' ?", "options": ["Hanche pêchée et levée par la manche", "Grand fauchage par la manche", "Le salut au professeur", "La main qui tire"], "answer": "Hanche pêchée et levée par la manche"},      
         {"question": "Que signifie 'Ude-hishigi-juji-gatame' ?", "options": ["Clé de bras en croix", "Clé de bras par le dessous", "Clé de bras avec l'aisselle", "Luxation du poignet en tournant"], "answer": "Clé de bras en croix"},        
+        {"question": "Que signifie 'Ude-garami' ?", "options": ["Clé de bras par enroulement", "Clé de coude directe en extension", "Étranglement par la manche", "Immobilisation faciale"], "answer": "Clé de bras par enroulement"},
+        {"question": "Que signifie 'Ude-hishigi-hara-gatame' ?", "options": ["Clé de bras contrôlée par le ventre", "Clé de bras contrôlée par l'aisselle", "Clé de bras en croix", "Luxation avec le genou"], "answer": "Clé de bras contrôlée par le ventre"},
         {"question": "Que signifie 'Kuzushi' ?", "options": ["Le déséquilibre", "La préparation", "L'exécution", "La chute"], "answer": "Le déséquilibre"},
         {"question": "Que désigne le terme 'Tsukuri' ?", "options": ["La préparation / le placement du corps", "Le brise-chute", "La projection finale", "La fin du combat"], "answer": "La préparation / le placement du corps"},
         {"question": "Que désigne le terme 'Kake' ?", "options": ["L'exécution / la conclusion de la technique", "La garde de manche", "L'arbitre de coin", "Le tapis"], "answer": "L'exécution / la conclusion de la technique"},        
         {"question": "À quel rang de classement (Kyu) correspond la Ceinture Verte ?", "options": ["3ème Kyu", "2ème Kyu", "1er Kyu", "4ème Kyu"], "answer": "3ème Kyu"},
-        {"question": "Quelle est la première maxime fondamentale du judo énoncée par Jigoro Kano ?", "options": ["Seiryoku Zenyo (Maximum d'efficacité pour un minimum d'effort)", "Jita Kyoei (Entraide et prospérité mutuelle)", "Shin Gi Tai", "Ju no Ri"], "answer": "Seiryoku Zenyo (Maximum d'efficacité pour un minimum d'effort)"},
-        {"question": "Quelle est la deuxième maxime fondamentale du judo axée sur la dimension sociale ?", "options": ["Jita Kyoei (Entraide et prospérité mutuelle)", "Seiryoku Zenyo", "Bushido", "Reishiki"], "answer": "Jita Kyoei (Entraide et prospérité mutuelle)"},
-        {"question": "Que signifie 'Sode-tsurikomi-goshi' ?", "options": ["Hanche pêchée par la manche", "Fauchage de manche", "Projection d'épaule croisée", "Sacrifice par le bras"], "answer": "Hanche pêchée par la manche"},
+        {"question": "Quelle maxime fondamentale du judo énoncée par Jigoro Kano se traduit par 'Maximum d'efficacité pour un minimum d'effort' ?", "options": ["Seiryoku Zenyo", "Jita Kyoei", "Shin Gi Tai", "Ju no Ri"], "answer": "Seiryoku Zenyo"},
+        {"question": "Quelle maxime fondamentale du judo signifie 'entraide et prospérité mutuelle' ?", "options": ["Jita Kyoei", "Seiryoku Zenyo", "Bushido", "Reishiki"], "answer": "Jita Kyoei"},
+        {"question": "Quelle maxime fondamentale du judo signifie 'Le Principe de l'Adaptation' ?", "options": ["Ju-no-ri", "Seiryoku Zenyo", "Jita Kyoei", "Reishiki"], "answer": "Jita Kyoei"},
         {"question": "Que signifie 'Renraku-waza' ?", "options": ["Enchaînement de techniques", "Contre-attaque", "Esquive latérale", "Travail statique"], "answer": "Enchaînement de techniques"},
+        {"question": "Dans le code moral du judo, quelle valeur est définie par 'c'est le respect d'autrui' ?", "options": ["La politesse", "Le courage", "L'amitié", "La sincérité"], "answer": "La politesse"},
+        {"question": "Quelle valeur du code moral consiste à 'faire ce qui est juste' ?", "options": ["Le courage", "Le contrôle de soi", "L'honneur", "La modestie"], "answer": "Le courage"},
+        {"question": "Dans le code moral du judo, quelle valeur est définie par 'c'est s'exprimer sans déguiser sa pensée' ?", "options": ["La sincérité", "Le respect", "La politesse", "L'amitié"], "answer": "La sincérité"},
+        {"question": "Quelle valeur du code moral est définie par 'c'est être fidèle à sa parole' ?", "options": ["L'honneur", "La modestie", "Le contrôle de soi", "Le courage"], "answer": "L'honneur"},
+        {"question": "Dans le code moral du judo, quelle valeur consiste à 'parler de soi sans orgueil' ?", "options": ["La modestie", "La politesse", "La sincérité", "Le respect"], "answer": "La modestie"},
+        {"question": "Quelle valeur essentielle se définit simplement par 'sans lui aucune confiance ne peut naître' ?", "options": ["Le respect", "L'amitié", "Le courage", "L'honneur"], "answer": "Le respect"},
+        {"question": "Quelle valeur du code moral demande de 'savoir taire sa colère' ?", "options": ["Le contrôle de soi", "La modestie", "La sincérité", "La politesse"], "answer": "Le contrôle de soi"},
+        {"question": "Dans le code moral du judo, quelle valeur est décrite comme 'le plus pur des sentiments humains' ?", "options": ["L'amitié", "Le respect", "L'honneur", "Le courage"], "answer": "L'amitié"},
+      ],
+    "Ceinture Verte et Bleue": [   
+        {"question": "Quelle technique se traduit par 'Chute dans la vallée' ?", "options": ["Tani-otoshi", "Yoko-otoshi", "Soto-makikomi", "Ura-nage"], "answer": "Tani-otoshi"},
+        {"question": "Que signifie la technique 'Hane-maki-komi' ?", "options": ["Enroulement en technique de hanche percutée", "Grand fauchage par la manche", "Projection par le cou", "Le salut au professeur"], "answer": "Enroulement en technique de hanche percutée"},
+        {"question": "Que signifie la technique 'Harai-maki-komi' ?", "options": ["Enroulement par fauchage / balayage de la hanche", "Petit fauchage extérieur en deux temps", "La main qui tire", "Étranglement en croix normal"], "answer": "Enroulement par fauchage / balayage de la hanche"},
+        {"question": "Que signifie la technique 'Uchi-mata-maki-komi' ?", "options": ["Enroulement par fauchage intérieur de la cuisse", "Projection de l'épaule par le revers", "Déséquilibre vers l'avant", "La ceinture rouge et blanche"], "answer": "Enroulement par fauchage intérieur de la cuisse"},
+        {"question": "Que signifie littéralement la technique de projection 'Hane-maki-komi' ?", "options": ["Hanche sautée enroulée", "Grand fauchage extérieur", "Balayage du pied en pêchant", "Projection par le cou"], "answer": "Hanche sautée enroulée"},
+        {"question": "Quelle est la particularité de la technique 'Nidan-ko-soto-gari' ?", "options": ["C'est un petit fauchage extérieur effectué sur la deuxième jambe", "Elle s'exécute uniquement à genoux", "Elle utilise une saisie double aux revers", "C'est un grand balayage intérieur"], "answer": "C'est un petit fauchage extérieur effectué sur la deuxième jambe"},
+        {"question": "Que signifie la technique 'Harai-tsuri-komi-ashi' ?", "options": ["Balayage du pied en pêchant et en levant", "Accrochage de la jambe en arrière", "Étranglement en croix", "Projection de hanche par le revers"], "answer": "Balayage du pied en pêchant et en levant"},
+        {"question": "Comment se traduit la technique de projection 'Kubi-nage' ?", "options": ["Projection par le cou", "Chute amortie vers l'avant", "Projection par les épaules", "Étranglement à mains nues"], "answer": "Projection par le cou"},
+        {"question": "Pour l'étranglement 'Gyaku-juji-jime' (en croix inversé), quelle est la position des mains de Tori ?", "options": ["Les pouces sont à l'intérieur des revers", "Les pouces sont à l'extérieur des revers", "Une main avec le pouce à l'intérieur, l'autre à l'extérieur", "Les mains attrapent directement les manches"], "answer": "Les pouces sont à l'intérieur des revers"},
+        {"question": "Quelle est la caractéristique principale de 'Nami-juji-jime' (en croix normal) ?", "options": ["Les deux mains saisissent les revers avec les pouces à l'extérieur", "L'étranglement s'effectue à l'aide des jambes", "Les bras ne se croisent pas lors de la saisie", "Il s'agit d'une clé de bras en extension"], "answer": "Les deux mains saisissent les revers avec les pouces à l'extérieur"},
+        {"question": "La technique au sol 'Sankaku-jime' prend la forme de quelle figure géométrique avec les jambes ?", "options": ["Un triangle", "Un carré", "Une croix", "Un cercle"], "answer": "Un triangle"},
+        {"question": "Que signifie 'Sankaku-jime' ?", "options": ["Étranglement en triangle", "Étranglement nu", "Étranglement par les deux revers", "Clé de bras en extension"], "answer": "Étranglement en triangle"},
     ],
     "Ceinture Bleue": [
         {"question": "Comment appelle-t-on les techniques de sacrifice (où Tori sacrifie son équilibre) ?", "options": ["Sutemi-waza", "Tachi-waza", "Te-waza", "Koshi-waza"], "answer": "Sutemi-waza"},
@@ -181,30 +222,57 @@ QUIZ_DATA = {
         {"question": "Quelle technique se traduit par 'Projection arrière' (Tori passe sous Uke et le jette sur le dos) ?", "options": ["Ura-nage", "Tomoe-nage", "Tani-otoshi", "Yoko-gake"], "answer": "Ura-nage"},
         {"question": "Que signifie 'Uchi-makikomi' ?", "options": ["Enroulement intérieur", "Enroulement extérieur", "Fauchage intérieur de cuisse", "Sacrifice de face"], "answer": "Enroulement intérieur"},        
         {"question": "Que signifie 'Ude-hishigi-waki-gatame' ?", "options": ["Clé de bras contrôlée par l'aisselle", "Clé de bras en croix", "Clé de bras avec le genou", "Luxation du poignet en tournant"], "answer": "Clé de bras contrôlée par l'aisselle"},
-        {"question": "Que signifie 'Hadaka-jime' ?", "options": ["Étranglement nu", "Étranglement croisé", "Étranglement par la veste", "Étranglement avec les jambes"], "answer": "Étranglement nu"},
-        {"question": "Que signifie 'Okuri-eri-jime' ?", "options": ["Étranglement par les revers coulissants", "Étranglement à mains nues", "Étranglement en croix", "Clé de cou"], "answer": "Étranglement par les revers coulissants"},
+        {"question": "Que signifie 'Ude-hishigi-hiza-gatame' ?", "options": ["Clé de bras avec l'aide du genou", "Clé de bras sur le ventre", "Clé de coude directe en extension", "Étranglement par la jambe"], "answer": "Clé de bras avec l'aide du genou"},
+        {"question": "Que signifie la technique de sacrifice 'Yoko-tomoe-nage' ?", "options": ["Projection en cercle de côté", "Grande roue de face", "La main qui tire", "Balayage du pied en pêchant"], "answer": "Projection en cercle de côté"},
+        {"question": "Dans quelle catégorie de techniques se classe 'Yoko-tomoe-nage' ?", "options": ["Yoko-sutemi-waza", "Ma-sutemi-waza", "Koshi-waza", "Te-waza"], "answer": "Yoko-sutemi-waza"},
+        {"question": "Que signifie la technique de hanche 'Utsuri-goshi' ?", "options": ["Hanche déplacée / transférée", "Hanche fauchée enroulée", "Le salut au professeur", "La ceinture rouge et blanche"], "answer": "Hanche déplacée / transférée"},
+        {"question": "Lors de l'exécution de 'Utsuri-goshi', quelle est l'action clé de Tori ?", "options": ["Substituer sa propre hanche sous le corps de Uke après l'avoir soulevé", "Se jeter instantanément sur le dos", "Faucher les deux jambes par l'intérieur", "Faire une clé de bras à la volée"], "answer": "Substituer sa propre hanche sous le corps de Uke après l'avoir soulevé"},
+        {"question": "Que désigne le terme 'Ude-hishigi-ude-gatame' ?", "options": ["Clé de contrôle du bras en extension", "Étranglement en croix normal", "Déséquilibre vers l'avant", "La main qui soulève"], "answer": "Clé de contrôle du bras en extension"},
         {"question": "Que signifie 'Kaeshi-waza' ?", "options": ["Les contre-attaques / contres", "Les feintes", "Les combinaisons de techniques", "Les projections de jambes"], "answer": "Les contre-attaques / contres"},
-        {"question": "Quelle technique se traduit par 'Chute dans la vallée' ?", "options": ["Tani-otoshi", "Yoko-otoshi", "Soto-makikomi", "Ura-nage"], "answer": "Tani-otoshi"},
-        {"question": "Que signifie 'Yoko-guruma' ?", "options": ["Roue latérale", "Roue autour de la hanche", "Balayage de côté", "Grand sacrifice"], "answer": "Roue latérale"},
-        {"question": "Que désigne le terme 'Kata' en Judo ?", "options": ["Forme / model", "Le combat d'entraînement libre", "La tenue officielle de compétition", "Le tableau des scores"], "answer": "Forme / model"},
+        {"question": "Que désigne le terme 'Kata' en Judo ?", "options": ["Forme / model ou épaule", "Le combat d'entraînement libre", "La tenue officielle de compétition", "Le tableau des scores"], "answer": "Forme / model ou épaule"},
         {"question": "Quel est le nom du grand Kata des projections ?", "options": ["Nage-no-kata", "Katame-no-kata", "Ju-no-kata", "Kime-no-kata"], "answer": "Nage-no-kata"},
         {"question": "Combien de groupes de techniques comporte le Nage-no-kata ?", "options": ["5 groupes", "3 groupes", "4 groupes", "6 groupes"], "answer": "5 groupes"},
         {"question": "À quel rang (Kyu) correspond la Ceinture Bleue ?", "options": ["2ème Kyu", "3ème Kyu", "1er Kyu", "5ème Kyu"], "answer": "2ème Kyu"},        
         {"question": "Que signifie 'Ushironano-jime' (ou Ushiro-jime) ?", "options": ["Étranglement arrière", "Étranglement de face", "Clé de bras inversée", "Immobilisation sur le ventre"], "answer": "Étranglement arrière"},
-        {"question": "Que signifie 'Ude-garami' ?", "options": ["Clé de bras par enroulement", "Clé de coude directe en extension", "Étranglement par la manche", "Immobilisation faciale"], "answer": "Clé de bras par enroulement"},
         {"question": "Quel mot japonais définit le code moral ou la conduite du combattant ?", "options": ["Bushido", "Reishiki", "Kata", "Sempai"], "answer": "Bushido"},
         {"question": "Que signifie 'Shintai' ?", "options": ["Les déplacements", "Les esquives", "Les saluts", "Les saisies"], "answer": "Les déplacements"},
         {"question": "Comment appelle-t-on le déplacement en pas glissé avec le même pied devant (un pied chasse l'autre) ?", "options": ["Tsugi-ashi", "Ayumi-ashi", "Tai-sabaki", "Suri-ashi"], "answer": "Tsugi-ashi"},
         {"question": "Comment appelle-t-on le déplacement en pas marchés normaux ?", "options": ["Ayumi-ashi", "Tsugi-ashi", "Tai-sabaki", "Mae-geri"], "answer": "Ayumi-ashi"},
+        {"question": "Dans quel cas le médecin peut-il intervenir SANS que le combattant ne perde le combat ?", "options": ["Pour un saignement ou une blessure causée par une faute de l'adversaire", "Si le combattant exprime simplement de la fatigue", "Uniquement si l'entraîneur jette une serviette", "À la fin de chaque période de Golden Score"], "answer": "Pour un saignement ou une blessure causée par une faute de l'adversaire"},
+        {"question": "Si un saignement se répète trop souvent sans pouvoir être stoppé, que fait l'arbitre ?", "options": ["Il met fin au combat pour raisons médicales", "Il donne une pénalité à l'adversaire", "Il fait changer le tatami", "Il autorise le coaching pendant les soins"], "answer": "Il met fin au combat pour raisons médicales"},
+        {"question": "Que doit faire l'arbitre central pendant que le médecin soigne un combattant ?", "options": ["Rester à proximité pour surveiller et empêcher le coaching tactique", "Quitter le tapis pour aller boire de l'eau", "Aider activement le médecin à poser les bandages", "Attribuer un Shido d'attente à l'autre combattant"], "answer": "Rester à proximité pour surveiller et empêcher le coaching tactique"},
+        {"question": "Si un judoka est blessé par une faute grave de l'adversaire (Hansoku-make) et déclaré inapte pour la suite :", "options": ["Il gagne le combat mais ne peut plus se présenter au tour suivant", "Le combat est rejoué le lendemain", "Les deux combattants sont éliminés définitivement", "L'entraîneur peut remplacer son athlète"], "answer": "Il gagne le combat mais ne peut plus se présenter au tour suivant"},
+    ],
+    "Ceinture Bleue-Marron": [
+        {"question": "Que signifie 'Okuri-eri-jime' ?", "options": ["Étranglement par les revers coulissants", "Étranglement à mains nues", "Étranglement en croix", "Clé de cou"], "answer": "Étranglement par les revers coulissants"},
+        {"question": "Que signifie 'Yoko-guruma' ?", "options": ["Roue latérale", "Roue autour de la hanche", "Balayage de côté", "Grand sacrifice"], "answer": "Roue latérale"},
+        {"question": "Que signifie la technique de projection 'Te-guruma' ?", "options": ["Roue autour de la main / du bras", "Grand fauchage par les deux manches", "Le salut au mur d'honneur", "Bascule de hanche inversée"], "answer": "Roue autour de la main / du bras"},
+        {"question": "Que signifie littéralement la technique 'Kata-guruma' ?", "options": ["Roue autour des épaules", "Projection par le cou", "Clé de bras en triangle", "Déséquilibre vers l'arrière"], "answer": "Roue autour des épaules"},
+        {"question": "Comment se traduit la technique de ramassage de jambes 'Morote-gari' ?", "options": ["Fauchage par les deux mains", "Petit fauchage extérieur en deux temps", "La main qui tire", "Balayage du pied en pêchant"], "answer": "Fauchage par les deux mains"},
+        {"question": "Que signifie la technique de sacrifice 'Yoko-wakare' ?", "options": ["Séparation latérale / de côté", "Chute en cercle de face", "Enroulement par la manche", "Immobilisation par les jambes"], "answer": "Séparation latérale / de côté"},
+        {"question": "Que signifie littéralement la technique 'Uki-otoshi' ?", "options": ["Renversement flottant", "Grande roue d'épaule", "Étranglement en croix", "La main qui soulève"], "answer": "Renversement flottant"},
+        {"question": "Que signifie la technique au sol 'Ude-hishigi-ashi-gatame' ?", "options": ["Clé de bras en extension contrôlée par la jambe / le pied", "Étranglement en croix avec les mains", "Immobilisation par le contrôle des deux manches", "Projection de hanche en utilisant les jambes"], "answer": "Clé de bras en extension contrôlée par la jambe / le pied"},
+        {"question": "Que signifie 'Hadaka-jime' ?", "options": ["Étranglement nu", "Étranglement croisé", "Étranglement par la veste", "Étranglement avec les jambes"], "answer": "Étranglement nu"},
     ],
     "Ceinture Marron": [
         {"question": "Que signifie 'Yoko-gake' ?", "options": ["Accrochage latéral", "Fauchage latéral", "Roue de côté", "Chute de côté"], "answer": "Accrochage latéral"},        
         {"question": "Quel est le nom du Kata des techniques de contrôle au sol ?", "options": ["Katame-no-kata", "Nage-no-kata", "Ju-no-kata", "Itsutsu-no-kata"], "answer": "Katame-no-kata"},
         {"question": "Combien de catégories compose le Katame-no-kata ?", "options": ["3 (Osaekomi, Shime, Kansetsu)", "2 (Nage, Ne-waza)", "5", "4"], "answer": "3 (Osaekomi, Shime, Kansetsu)"},        
         {"question": "Que signifie 'Kata-ha-jime' ?", "options": ["Étranglement par contrôle d'une aile (un bras contrôlé en l'air)", "Étranglement croisé à l'envers", "Étranglement par le revers", "Clé de coude croisée"], "answer": "Étranglement par contrôle d'une aile (un bras contrôlé en l'air)"},
-        {"question": "Que signifie 'Sankaku-jime' ?", "options": ["Étranglement en triangle (avec les jambes)", "Étranglement nu", "Étranglement par les deux revers", "Clé de bras en extension"], "answer": "Étranglement en triangle (avec les jambes)"},
-        {"question": "Que signifie 'Ude-hishigi-hara-gatame' ?", "options": ["Clé de bras contrôlée par le ventre", "Clé de bras contrôlée par l'aisselle", "Clé de bras en croix", "Luxation avec le genou"], "answer": "Clé de bras contrôlée par le ventre"},
-        {"question": "Que signifie 'Ude-hishigi-hiza-gatame' ?", "options": ["Clé de bras avec l'aide du genou", "Clé de bras sur le ventre", "Clé de coude directe en extension", "Étranglement par la jambe"], "answer": "Clé de bras avec l'aide du genou"},
+        {"question": "Que signifie 'Kata-juji-jime' ?", "options": ["Étranglement croisé mains inversées", "Étranglement par le côté", "Étranglement à l'envers", "Étranglement nu"], "answer": "Étranglement croisé mains inversées"},
+        {"question": "Que signifie la technique de projection 'Kubitsu-gaeshi' ?", "options": ["Renversement par saisie du cou / de la tête", "Clé de cheville au sol", "Étranglement arrière avec le revers", "Fauchage de la jambe en s'enroulant"], "answer": "Renversement par saisie du cou / de la tête"},
+        {"question": "Dans le répertoire des techniques anciennes, qu'est-ce que 'Kishiki-daoshi' ?", "options": ["Renversement de la structure / projection de l'arbre", "Technique de hanche par double saisie", "Étranglement en position assise", "Un salut traditionnel d'ouverture"], "answer": "Renversement de la structure / projection de l'arbre"},
+        {"question": "Que signifie la technique de sacrifice 'Uki-waza' ?", "options": ["Technique flottante", "Projection par les deux manches", "Bascule par-dessus l'épaule", "Immobilisation en croix"], "answer": "Technique flottante"},
+        {"question": "Que signifie littéralement la technique 'Yoko-otoshi' ?", "options": ["Renversement latéral / chute de côté", "Grande roue de face", "Fauchage de jambe intérieur", "Étranglement par le col"], "answer": "Renversement latéral / chute de côté"},
+        {"question": "Comment se traduit la technique de sacrifice 'Daki-wakare' ?", "options": ["Séparation en enlacant / en brassant", "Chute flottante arrière", "Roue autour des hanches", "Clé de bras par la jambe"], "answer": "Séparation en enlacant / en brassant"},
+        {"question": "Que signifie la technique de projection 'Yoko-wakare' (souvent écrit Yoko-wake) ?", "options": ["Séparation latérale / de côté", "Projection de hanche par le revers", "Déséquilibre direct vers l'avant", "Contre-prise sur fauchage"], "answer": "Séparation latérale / de côté"},
+        {"question": "Quelle est la particularité de l'étranglement 'Kata-te-jime' ?", "options": ["Il s'exécute avec une seule main", "Il nécessite l'usage des deux jambes", "Il se fait en croisant les deux revers", "Il s'agit d'une clé de coude"], "answer": "Il s'exécute avec une seule main"},
+        {"question": "Quel maître japonais est considéré comme le père fondateur du judo en France grâce à son travail dès les années 1930 ?", "options": ["Mikitonosuke Kawaishi", "Jigoro Kano", "Kazuzo Kudo", "Ichiro Abe"], "answer": "Mikitonosuke Kawaishi"},
+        {"question": "Qui est le tout premier champion olympique de l'histoire du judo français, sacré à Munich en 1972 ?", "options": ["Angelo Parisi", "Jean-Luc Rougé", "Teddy Riner", "David Douillet"], "answer": "Angelo Parisi"},
+        {"question": "Qui détient le record historique du plus grand nombre de titres de champion du monde de judo masculin ?", "options": ["Teddy Riner", "Naoya Ogawa", "Shohei Ono", "Tadahiro Nomura"], "answer": "Teddy Riner"},
+        {"question": "Dans le Nage-no-kata, quelle est la toute première série de techniques exécutée ?", "options": ["Te-waza (Techniques de bras)", "Koshi-waza (Techniques de hanche)", "Ashi-waza (Techniques de jambe)", "Sutemi-waza (Techniques de sacrifice)"], "answer": "Te-waza (Techniques de bras)"},
+        {"question": "Combien de techniques au total composent le Nage-no-kata (le kata des projections) ?", "options": ["15 techniques (5 séries de 3)", "20 techniques (4 séries de 5)", "12 techniques (3 séries de 4)", "10 techniques (2 séries de 5)"], "answer": "15 techniques (5 séries de 3)"},
+        {"question": "Quelles sont, dans l'ordre exact, les 3 premières techniques du Nage-no-kata (série des Te-waza) ?", "options": ["Uki-otoshi, Seoi-nage, Kata-guruma", "Tomoe-nage, Ura-nage, Sumi-gaeshi", "Uki-goshi, O-goshi, Tsuri-komi-goshi", "Uchi-mata, Harai-goshi, Hane-goshi"], "answer": "Uki-otoshi, Seoi-nage, Kata-guruma"},
         {"question": "À quel rang (Kyu) correspond la Ceinture Marron ?", "options": ["1er Kyu", "2ème Kyu", "3ème Kyu", "1er Dan"], "answer": "1er Kyu"},
         {"question": "Quel grade vient immédiatement après la Ceinture Marron ?", "options": ["Ceinture Noire 1er Dan (Shodan)", "Ceinture Violette", "Ceinture Noire-Blanche", "Ceinture Rouge"], "answer": "Ceinture Noire 1er Dan (Shodan)"},
         {"question": "Quel terme signifie 'Le vainqueur' annoncé par l'arbitre en fin de combat ?", "options": ["Kachi", "Hajime", "Sore-made", "Ippon"], "answer": "Kachi"},
@@ -223,10 +291,25 @@ BELT_ORDER = [
     "Ceinture Jaune-Orange", 
     "Ceinture Orange", 
     "Ceinture Orange-Verte", 
-    "Ceinture Verte", 
+    "Ceinture Verte",
+    "Ceinture Verte et Bleue",
     "Ceinture Bleue", 
+    "Ceinture Bleue-Marron",
     "Ceinture Marron"
 ]
+
+BELT_WEIGHTS = {
+    "Ceinture Blanche-Jaune": 1,
+    "Ceinture Jaune": 1,
+    "Ceinture Jaune-Orange": 1,
+    "Ceinture Orange": 1,
+    "Ceinture Orange-Verte": 2,
+    "Ceinture Verte": 2,
+    "Ceinture Verte et Bleue": 3,
+    "Ceinture Bleue": 3,
+    "Ceinture Bleue-Marron": 3,
+    "Ceinture Marron": 3,
+}
 
 # --- INITIALISATION DE L'APPLICATION STREAMLIT ---
 st.set_page_config(page_title="Quiz Judo Ceintures", page_icon="🥋", layout="centered")
@@ -368,15 +451,27 @@ if not st.session_state.quiz_started:
     num_q = st.slider("Nombre de questions pour le quiz :", min_value=5, max_value=20, value=10, step=5)
     
     if st.button("🥋 Hajime !", type="primary"):
-        pool_questions = []
+        weighted_questions = []
         for belt in BELT_ORDER:
-            pool_questions.extend(QUIZ_DATA[belt])
+            for question in QUIZ_DATA[belt]:
+                weight = BELT_WEIGHTS.get(belt, 1)
+                weighted_questions.append((question, weight))
             if belt == target_belt:
                 break
-        
-        num_q = min(num_q, len(pool_questions))
-        selected_questions = random.sample(pool_questions, num_q)
-        
+
+        num_q = min(num_q, len(weighted_questions))
+        selected_questions = []
+        while len(selected_questions) < num_q:
+            total_weight = sum(weight for _, weight in weighted_questions)
+            pick = random.uniform(0, total_weight)
+            current = 0
+            for index, (question, weight) in enumerate(weighted_questions):
+                current += weight
+                if pick <= current:
+                    selected_questions.append(question)
+                    weighted_questions.pop(index)
+                    break
+
         game_questions = []
         for q in selected_questions:
             shuffled_opts = list(q["options"])
